@@ -1,9 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Image from './Components/Image/Image';
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      App
+      <Image />
+    </div>
   );
 }
 
