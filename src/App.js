@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Image from './Components/Image/Image';
 import User from './Components/TestReactClassComponent/User';
+import UserEvent from './Components/User_Event/UserEvent';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       App
       <Image />
       <User />
+      <UserEvent email="sushant@gmail.com" />
     </div>
   );
 }
